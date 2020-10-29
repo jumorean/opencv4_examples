@@ -9,6 +9,9 @@ int main() {
 
     // std::cout << a.size();
     cv::imshow("img", a);
+
+    std::cout << a.size() << std::endl;
+
     cv::waitKey(0);
     return 0;
 }
