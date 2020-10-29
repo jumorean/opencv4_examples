@@ -9,8 +9,10 @@ find_package(OpenCV)
 
 if(OpenCV_FOUND)
 
-    message("OpenCV found")
-    message("OpenCV_INCLUDE_DIRS = ${OpenCV_INCLUDE_DIRS}")
+
+
+    message(STATUS "OpenCV found")
+    message(STATUS "OpenCV_INCLUDE_DIRS = ${OpenCV_INCLUDE_DIRS}")
 endif()
 
 
